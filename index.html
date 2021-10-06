@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="style.css">
+	<script>
+		function check() {
+			// body...
+			var name=document.forms["RegForm"]["name"];
+			var username=document.forms["RegForm"]["username"];
+			
+			var email=document.forms["RegForm"]["email"];
+			
+			var password=document.forms["RegForm"]["password"];
+			
+			var checkpass=document.forms["RegForm"]["checkpass"];
+			
+
+			if(name.value==""){
+				alert("Please Enter Your Name.");
+				name.focus();
+				return false;
+			}
+			if(username.value.length<6){
+				alert("Please Enter Your Valid UserName.");
+				username.focus();
+				return false;
+			}
+			if(email.value==""){
+				alert("Please Enter a Valid Email Address.");
+				email.focus();
+				return false;
+			}
+
+			if(password.value.length<8){
+				alert("Please Enter Valid Password (At Least 8 characters).");
+				password.focus();
+				return false;
+			}
+			if(password.value!=checkpass.value){
+				alert("Passwords Don't Match");
+				checkpass.focus();
+				return false;
+			}
+
+			alert("Form Is validated Successfully. User is Registered");
+
+			return true;;
+
+		}
+		
+	</script>
+	
+	
+</head>
+<body id="box">
+	
+	
+	
+
+	<form name="RegForm" class="fancy" onsubmit="return check()">
+
+		<h1 align=left style="font-family: Comic-Sans MS, Helvetica, sans-serif;"><strong>Registration</strong></h1>
+	<hr class="line">
+
+	<P>
+		<label id="name" class="title">Full Name</label>
+		<br>
+		<input type="text" class="input" name="name" maxlength="15" placeholder="Enter your Name" required="required"/>
+    </P>
+
+	<p>
+		<label id="name" class="title">Username</label>
+		<br>
+		<input type="text" class="input" name="username" maxlength="15" placeholder="Enter your Username" required="required"/>
+	</p>
+
+
+	
+
+	
+	<p>
+		<label id="email" class="title">Email</label>
+		<br>
+		<input type="email" class="input" name="email" maxlength="30" placeholder="Enter your Email" required="required"/>
+	</p>
+
+	<p>
+
+		<label id="number" class="title">Phone Number</label>
+		<br>
+		<input type="number" class="input" name="phone" max="9999999999" min="1000000000" placeholder="Enter your Number" required="required"/>
+	</p>
+	
+	
+	<p>
+		<label id="password" class="title">Password</label>
+		<br>
+		<input type="password" class="input" name="password" maxlength="30" placeholder="Enter your Password" required="required"/>
+	</p>
+
+	<p>
+
+		<label id="password" class="title">Confirm Password</label>
+		<br>
+		<input type="password" class="input" name="checkpass" maxlength="30" placeholder="Confirm your Password" required="required"/>
+	</p>
+
+
+
+
+	</div>
+
+	<div class="sex">
+		<h3>
+			Gender
+		</h3>
+
+
+	</div>
+	
+	<div class="input">
+		
+		<input type="radio" name="size" value="male"/>Male
+		<input type="radio" name="size" value="female"/>Female
+		<input type="radio" name="size" value="prefer not to say"/>Prefer not to say
+	</div>
+	<div align=center>
+
+		<input type= "submit" value="Register"/>
+	</div>
+
+
+
+	</form>
+</div>
+
+    
+
+	
+</body>
+
+</html>
+
