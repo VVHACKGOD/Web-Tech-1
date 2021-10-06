@@ -1,0 +1,120 @@
+body {
+  margin:  0;
+  padding:  0;
+  background-color: gray;
+}
+
+#box {
+  background-color: lightblue;
+  height: 150px
+  padding:  10px 10px 10px 10px;/*10px top right bottom left*/
+  /*border:  1px solid red;*/
+  /*margin:  33px;*/
+  width:  700px;
+  align:  center;
+  margin:  auto;
+  /*width:  700px;*/
+  box-sizing: border-box;
+}
+#gradient{
+  background-color: mediumpurple;
+}
+/*#content {
+  background-color: #90EE90; /*green*/
+}*/
+
+h1 {
+  margin-bottom: 0px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #E322E0;
+  border: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 16px 32px;
+  font-weight: bold; 
+  font-size: 24px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type=text], input[type=password], input[type=number], textarea{  
+  /*width: 7%;  */
+
+  padding: 15px;  
+  margin: 30px 0 22px 0;  
+ /* display: inline-block;  */
+  border: none;  
+  background: #f1f1f1;  
+}  
+
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: white;  
+  outline: none; 
+  display: 50%; 
+}  
+
+.block{
+
+
+}
+.title{
+  font-family: Comic-Sans MS, Helvetica, sans-serif;
+  color: black;
+ /* font-style: italic;*/
+  font-weight: bold;
+  font-size: 12px;  /*points (pt) are used in print, not screen.*/
+  text-transform: capitalise;
+  text-align: left;  
+}
+
+input[type=radio]{
+  background-color: #E322E0;
+  border: none;
+  color: white;
+  font-family: Comic-Sans MS, Helvetica, sans-serif;
+  padding: 16px 32px;
+  font-weight: bold; 
+  font-size: 24px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 19%;
+
+}
+.input{
+   font-family: Comic-Sans MS, Helvetica, sans-serif;
+
+
+
+
+}
+.sex{
+  font-family: Comic-Sans MS, Helvetica, sans-serif;
+  width:  650px;
+  margin: 25px auto;
+  padding: bottom 10px;
+
+}
+
+p{
+  display: inline-block;
+  width: 40%;
+  margin-left: 30px;
+}
+
+.fancy{
+  font-family: "Comic-Sans MS",Helvetica, sans-serif;
+  width:  650px;
+  margin:  40px auto;
+  background:  linear-gradient(to right,#eb4799 0%,#ea4700 99%);
+  border-radius: 10px;
+  padding:  10px;
+}
+.sex{
+  font-family: "Comic-Sans MS",Helvetica, sans-serif;
+  margin-left: 30px;
+
+}
