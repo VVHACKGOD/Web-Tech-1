@@ -1,0 +1,116 @@
+
+
+#box {
+  background-color: lightblue;
+  height: 150px
+  padding:  10px 10px 10px 10px;/*10px top right bottom left*/
+
+  width:  700px;
+  align:  center;
+  margin:  auto;
+ 
+  box-sizing: border-box;
+}
+
+
+h1 {
+  margin-bottom: 0px;
+  padding:  10px 10px 10px 10px;
+  margin-left: 20px;
+}
+input[type=submit] {
+  
+  background:  linear-gradient(to right,blue 0%,lightblue 99%);
+  border: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  font-weight: bold; 
+  font-size: 24px;
+  text-decoration: none;
+ /* margin: 4px 2px;*/
+  margin-top: 25px;
+  margin-bottom: 35px;
+
+  margin-left: px;
+  margin-right: 51px;
+  cursor: pointer;
+  width: 83%;
+  border-radius: 5px;
+}
+
+input[type=text], input[type=password], input[type=number], input[type=email], textarea{  
+ 
+
+  padding: 15px;  
+  margin: 15px 0 22px 0;  
+  border-radius: 5px;
+  width: 210px;
+ 
+  border: none;  
+  background: #f1f1f1;  
+}  
+
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: white;  
+  outline: none; 
+  display: 50%; 
+}  
+
+
+.title{
+  font-family: Comic-Sans MS, Helvetica, sans-serif;
+  color: black;
+ 
+  font-weight: bold;
+  font-size: 16px;  /*points (pt) are used in print, not screen.*/
+  text-transform: capitalise;
+  text-align: left;  
+}
+
+input[type=radio]{
+
+ 
+  border: none;
+  color: white;
+  font-family: Comic-Sans MS, Helvetica, sans-serif;
+ 
+  font-weight: bold; 
+  font-size: 24px;
+  text-decoration: none;
+  
+  margin-left: 0px;
+  cursor: pointer;
+  width: 17%;
+
+}
+.input{
+   font-family: Comic-Sans MS, Helvetica, sans-serif;
+
+}
+
+
+p{
+  display: inline-block;
+  width: 40%;
+  margin-left: 30px;
+}
+
+.fancy{
+  font-family: Comic-Sans MS,Helvetica, sans-serif;
+  width:  650px;
+  margin:  40px auto;
+  background:  linear-gradient(to right,#eb4799 0%,#ea4700 99%);
+  border-radius: 10px;
+  padding:  10px;
+}
+.sex{
+  font-family: Comic-Sans MS,Helvetica, sans-serif;
+  margin-left: 30px;
+
+}
+.line{
+  margin-left: 30px;
+  width: 5%;
+
+}
